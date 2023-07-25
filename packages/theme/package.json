@@ -3,7 +3,7 @@
   "version": "1.0.0-beta.4",
   "private": false,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --watch",
     "debug": "NODE_OPTIONS='--inspect' nuxt",
     "build": "nuxt build -m",
     "build:analyze": "nuxt build -a -m",
